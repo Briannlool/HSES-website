@@ -1,12 +1,12 @@
-h1{
-    border: solid ;
+#wthses{
+    border:solid ;
     border-radius: 20;
     border-color: green;
     font-size: 30px;
     padding-left: 350px;
 }
-body{
-
+#home{
+ background-color: orange;
 }
 
 #school{
@@ -14,12 +14,37 @@ body{
     
 }
 a{
+    background-color: black;
+    padding-left: 200px;
+    padding-right: 190px; 
+}
+
+#school{
+    font-family: Times; 
+    border: solid;
+    border-bottom-color:black;
+    padding-left: 40px; 
+}
+#abt{
+    background-color: green;
+    padding-left: 200px;
+    border-radius: 10px; 
     
-    padding-left: 300px;
-    margin-left:;
+}
+#about{
+    background-image: url(https://media.giphy.com/media/UHKL9BtyM4WrK/giphy.gif);
+    
+    background-size: 35%; 
+    background-position: center center;    
+  /*  height: 100vh; <- Not necessary */ 
+    
+}
+h2{
+    color: red;
+}
+#moreabt{
+    
 }
 
 
-
-
-
+/* display: inline-block */ 
